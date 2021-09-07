@@ -1,0 +1,17 @@
+* {
+    outline: 1px clear solid;
+}
+h1 {
+    color: rgb(0, 119, 255)
+}
+
+#top {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#time {
+    font-size: 30pt;
+    text-align:center;
+    border-radius: 25px;
+}
