@@ -1,0 +1,49 @@
+*, *:before, *:after {
+    box-sizing: border-box;     /*this is supposed to strip out some auto-formatting as best practice*/
+    font-size: 16pt;
+}
+
+#main, #body {
+    width: 600px;
+    margin: auto;       /*this centers the box*/
+    margin-top: 50px;
+    border: 2px black solid;
+    padding: 50px;
+}
+form {
+    width: 100%;
+}
+
+#name, #dojo_location, #fav_language, #submit, #goback {    /*this makes buttons and boxes look sleek and pushes to right side*/
+    border-radius:10px;
+    float:right;
+
+}
+
+#text_area {
+    width: 100%;
+    border-radius: 10px;
+    height: 100px;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+#inner {
+    padding: 0px 50px;
+    width: 100%;
+}
+
+.td_label {
+    width: 50%;     /*handles spacing of elements in the table box*/
+    padding: 10px 0px;
+}
+
+.special {          /*Div pushes the radio and checkbox lists to the right*/
+    text-align: right
+}
+
+.indent {
+    padding-left: 25px;
+}
